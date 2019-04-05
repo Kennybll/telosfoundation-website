@@ -38,6 +38,14 @@ class Header extends Component {
 							>
 								BLOG
 							</NavItem>
+							<NavItem
+								onSelect={(key, e) => {
+									e.preventDefault();
+									this.props.history.push(`/roadmap`);
+								}}
+							>
+								ROADMAP
+							</NavItem>
 							<NavDropdown title="MONITOR" id="basic-nav-dropdown">
 								<MenuItem 
 									onClick={(e) => {
@@ -115,15 +123,17 @@ class Header extends Component {
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>
-				<nav className='process_page_nav'>
-					<Grid>
-						<ul>
-							<li><a href="#future_anchor">ROADMAP</a></li>
-							<li><a href="#team_anchor">TEAM</a></li>
-							<li><a href="#history_anchor">PROJECT HISTORY</a></li>
-						</ul>
-					</Grid>
-				</nav>
+				{this.props.location.pathname === '/roadmap' && (
+					<nav className='process_page_nav'>
+						<Grid>
+							<ul>
+								<li><a href="#future_anchor">ROADMAP</a></li>
+								<li><a href="#team_anchor">TEAM</a></li>
+								<li><a href="#history_anchor">PROJECT HISTORY</a></li>
+							</ul>
+						</Grid>
+					</nav>
+				)}
 			</header>
 		);
 	}
