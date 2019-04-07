@@ -52,18 +52,12 @@ import telescope from '../../img/partner_logos/logo_telescope.png';
 import eos_sphere from '../../img/partner_logos/logo_eos_sphere.png';
 import telos_awake from '../../img/partner_logos/logo_telos_awake.png';
 
-//exchange logos
-// import chainrift from '../../img/exchange_logos/exchange_chainrift.png';
-// import dexeos from '../../img/exchange_logos/exchange_dexeos.png';
-
 import chainrift_button from '../../img/exchange_logos/Chainrift-Button.jpg';
-import dexeos_button from '../../img/exchange_logos/DEXEOS-Button.jpg';
-import findex_button from '../../img/exchange_logos/Findex-Button.jpg';
-import swaponline_button from '../../img/exchange_logos/SwapOnline-Button.jpg';
-import whaleex_button from '../../img/exchange_logos/WhaleEx-Button.jpg';
 import codex_button from '../../img/exchange_logos/codex_button.jpg';
 import eosex_button from '../../img/exchange_logos/eosex.png';
 import akdex_button from '../../img/exchange_logos/akdex.png';
+import p2pb2b_button from '../../img/exchange_logos/P2PPB2B-Button.jpg';
+import cointiger_button from '../../img/exchange_logos/CoinTiger-Button.jpg';
 
 import sqrl_logo from '../../img/SQRL_Logo_1024px1.png';
 import scatter_logo from '../../img/scatter_logo.jpg';
@@ -266,26 +260,6 @@ const exchangesArr = [
 		url: 'https://chainrift.com'
 	},
 	{
-		name: 'dexeos',
-		img: dexeos_button,
-		url: 'https://dexeos.io'
-	},
-	{
-		name: 'findex',
-		img: findex_button,
-		url: 'https://findex.pro'
-	},
-	{
-		name: 'swap.online',
-		img: swaponline_button,
-		url: 'https://swap.online'
-	},
-	{
-		name: 'whaleex',
-		img: whaleex_button,
-		url: 'https://www.whaleex.com'
-	},
-	{
 		name: 'codex',
 		img: codex_button,
 		url: 'https://codex.one'
@@ -299,6 +273,16 @@ const exchangesArr = [
 		name: 'akdex',
 		img: akdex_button,
 		url: 'https://akdex.io'
+	},
+	{
+		name: 'p2pb2b',
+		img: p2pb2b_button,
+		url: 'https://p2pb2b.io'
+	},
+	{
+		name: 'cointiger',
+		img: cointiger_button,
+		url: 'https://www.cointiger.com/en-us'
 	}
 ];
 
@@ -395,7 +379,7 @@ const Intro = ({intro_heading, intro_content, language}) => {
 							animateIn='fadeInUp'
 							duration={0.4} >
 							<h1 dangerouslySetInnerHTML={{__html: intro_heading}} />
-							<p>{intro_content}</p>
+							<p dangerouslySetInnerHTML={{__html: intro_content}} />
 						</ScrollAnimation>
 					</Col>
 					<Col sm={6}>

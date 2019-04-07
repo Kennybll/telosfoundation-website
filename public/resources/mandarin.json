@@ -1,8 +1,8 @@
 {
   "language": "mandarin",
   "landing_page": {
-  	"intro_heading": "更完善的委任权益证明体制",
-  	"intro_content": "委任权益证明（DPOS）是区块链智能合约的未来。我们结合了EOSIO软件的超快的运行速度和高扩展性，以及能让DPOS可持续发展的 - 真正的去中心化。Telos的货币供给使用了最大化权利分散分布方式。这种货币分布的方式极大减少中心化的可能并提高了管制治理能力，确保网络更安全和可持续发展。",
+  	"intro_heading": "社区治理区块链",
+  	"intro_content": "<strong>建立在EOSIO之上</strong> 委任权益证明（DPOS）是区块链智能合约的未来。我们结合了EOSIO软件的超快的运行速度和高扩展性，以及能让DPOS可持续发展的 - 真正的去中心化。Telos的货币供给使用了最大化权利分散分布方式。这种货币分布的方式极大减少中心化的可能并提高了管制治理能力，确保网络更安全和可持续发展。",
   	"developers_heading": "服务于开发人员",
   	"developers_content": "Telos 的设计初衷之一是为开发者们提供安全、稳定、低成本，却足以轻松运行世界顶级Dapp的网络。同时，Telos并行支持开源和专利独有的智能合约，价格低廉内存RAM价格、0手续费，种种独有特性为你的开发提供前所未有的助力。",
   	"dpos_heading": "高速",
@@ -382,8 +382,13 @@
   },
   "dapps_page": {
     "intro": {
-      "heading": "Dapp Development",
+      "heading": "Build Your Dapp on Telos",
       "subheading": "The best network makes the best Dapps",
+      "intro_content": [
+        "Telos uses the power of EOSIO to deploy fast, high-capacity dapps with no transaction fees for users. Telos is 100% code compatible with EOS but dapps cost 30X less to deploy on Telos, and Telos provides free user accounts. This makes Telos an ideal on-ramp for developers looking to build third-generation blockchain apps at a low price. Read more about the <a href=\"https://medium.com/goodblock-io/telos-the-on-ramp-to-third-generation-blockchain-c2c8c770099d\" target=\"_blank\" rel=\"noopener noreferrer\">low cost of Telos dapp deployment</a>.",
+        "We are building a repository of sample contracts for new tokens, migration of existing tokens from Ethereum or EOS, voting functions, and other Telos development concepts. We also have a strong developer community to offer help in our Telegram groups, especially <a href=\"https://t.me/dappstelos\" target=\"_blank\" rel=\"noopener noreferrer\">Telos Dapp Development</a>.",
+        "There is also an excellent tutorial series about deploying on Telos called <a href=\"https://link.medium.com/0UUfxmsMAV\" target=\"_blank\" rel=\"noopener noreferrer\">SensorDApp</a>."
+      ],
       "tutorials_button": "TUTORIALS",
       "tutorials_description": "Learn how to build your Dapp on the Telos network.",
       "smart_contracts_button": "SMART CONTRACT TEMPLATES",

@@ -99,18 +99,6 @@ const SideNavigation = (props) => {
 				</li>
 				<li>
 					<a
-						href='/iwantmytlos'
-						onClick={e => {
-							e.preventDefault();
-							props.history.push('/iwantmytlos');
-							props.toggleSideNav(false);
-						}}
-					>
-						#IWANTMYTLOS
-					</a>
-				</li>
-				<li>
-					<a
 						href='/faq'
 						onClick={e => {
 							e.preventDefault();

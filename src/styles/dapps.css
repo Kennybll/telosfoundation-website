@@ -2,6 +2,10 @@
 	padding-bottom: 150px;
 }
 
+.dapps a {
+	font-size: 1em;
+}
+
 #dapps_intro h1 {
 	font-size: 4.5em;
 	margin-bottom: 25px;
@@ -83,6 +87,10 @@
 	#dapps_intro .button_container:last-child {
 		margin-bottom: 0;
 	}
+}
+
+#dapps_intro .intro_content {
+	margin-bottom: 35px;
 }
 
 #dapps_slider {

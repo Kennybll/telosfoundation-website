@@ -29,7 +29,6 @@ const MainSite = ({site_content}) => {
 
 				<Switch>
 					<Route path='/:language/exchange_outreach' component={ExchangeOutreach} />
-					<Route path='/:language/iwantmytlos' component={ExchangeOutreach} />
 					<Route path='/:language/launch' component={Checklist} />
 					<Route path='/:language/downloads' render={() => <Download downloads_page={site_content.downloads_page} language={site_content.language} />} />
 					<Route path='/:language/arbitrators' render={() => <Arbitrator arbitrators_page={site_content.arbitrators_page} />} />
@@ -41,7 +40,6 @@ const MainSite = ({site_content}) => {
 					<Route path='/:language/how_to_vote' component={HowToVote} />
 
 					<Route path='/exchange_outreach' component={ExchangeOutreach} />
-					<Route path='/iwantmytlos' component={ExchangeOutreach} />
 					<Route path='/launch' component={Checklist} />
 					<Route path='/downloads' render={() => <Download downloads_page={site_content.downloads_page} language={site_content.language} />} />
 					<Route path='/arbitrators' render={() => <Arbitrator arbitrators_page={site_content.arbitrators_page} />} />

@@ -1,8 +1,8 @@
 {
   "language": "german",
   "landing_page": {
-  	"intro_heading": "DPos Perfektioniert",
-  	"intro_content": "Der delegierte Anteilsnachweis als Konsensus Mechanismus, ist die Zukunft smart-contract basierter Blockchain-Netzwerke. Telos bietet eine nachhaltige Lösung, in dem wir die Geschwindigkeit und Skalierbarkeit der EOSIO Software mit echter Dezentralisierung vereinen. Telos hat die gerechteste, und gleichmäßigste Geldverteilung aller Blockchainprojekte, und ist somit vor Korruption des politischen Prozesses geschützt, was mehr Sicherheit und Tragfähigkeit bedeutet.",
+  	"intro_heading": "Von der Gemeinschaft kontrollierte Blockchain",
+  	"intro_content": "<strong>Errichtet auf EOSIO</strong> Der delegierte Anteilsnachweis als Konsensus Mechanismus, ist die Zukunft smart-contract basierter Blockchain-Netzwerke. Telos bietet eine nachhaltige Lösung, in dem wir die Geschwindigkeit und Skalierbarkeit der EOSIO Software mit echter Dezentralisierung vereinen. Telos hat die gerechteste, und gleichmäßigste Geldverteilung aller Blockchainprojekte, und ist somit vor Korruption des politischen Prozesses geschützt, was mehr Sicherheit und Tragfähigkeit bedeutet.",
   	"developers_heading": "Entwickler Fokus",
   	"developers_content": "Die Telos Plattform existiert zum Zweck der sicheren, stabilen und kosteneffizienten Anwendung von smart-contract basierten Lösungen und dezentralisierten Apps. Günstige RAM Preise erlauben Entwicklern sowohl open-source also auch proprietäre Programme zu schreiben, welche ohne Transaktionskosten laufen können.",
   	"dpos_heading": "Geschwindigkeit",
@@ -382,8 +382,13 @@
   },
   "dapps_page": {
     "intro": {
-      "heading": "Dapp Development",
+      "heading": "Build Your Dapp on Telos",
       "subheading": "The best network makes the best Dapps",
+      "intro_content": [
+        "Telos uses the power of EOSIO to deploy fast, high-capacity dapps with no transaction fees for users. Telos is 100% code compatible with EOS but dapps cost 30X less to deploy on Telos, and Telos provides free user accounts. This makes Telos an ideal on-ramp for developers looking to build third-generation blockchain apps at a low price. Read more about the <a href=\"https://medium.com/goodblock-io/telos-the-on-ramp-to-third-generation-blockchain-c2c8c770099d\" target=\"_blank\" rel=\"noopener noreferrer\">low cost of Telos dapp deployment</a>.",
+        "We are building a repository of sample contracts for new tokens, migration of existing tokens from Ethereum or EOS, voting functions, and other Telos development concepts. We also have a strong developer community to offer help in our Telegram groups, especially <a href=\"https://t.me/dappstelos\" target=\"_blank\" rel=\"noopener noreferrer\">Telos Dapp Development</a>.",
+        "There is also an excellent tutorial series about deploying on Telos called <a href=\"https://link.medium.com/0UUfxmsMAV\" target=\"_blank\" rel=\"noopener noreferrer\">SensorDApp</a>."
+      ],
       "tutorials_button": "TUTORIALS",
       "tutorials_description": "Learn how to build your Dapp on the Telos network.",
       "smart_contracts_button": "SMART CONTRACT TEMPLATES",

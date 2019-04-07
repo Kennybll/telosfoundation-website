@@ -1,8 +1,8 @@
 {
   "language": "spanish",
   "landing_page": {
-  	"intro_heading": "Blockchain Perfeccionado",
-  	"intro_content": "Delegated Proof of Stake es el futuro de las blockchains con smart contracts. Combinamos la rápida ejecución y la escalabilidad del software EOSIO, con la verdadera descentralización que hace sostenible DPoS. Telos tendrá la mayor cantidad de monedas distribuidas equitativamente de entre todas las blockchains. Esta distribución de tokens mejora la gobernabilidad. De manera que la red es mucho más segura y sostenible.",
+  	"intro_heading": "Comunidad gobernada blockchain",
+  	"intro_content": "<strong>Construido en EOSIO</strong> Delegated Proof of Stake es el futuro de las blockchains con smart contracts. Combinamos la rápida ejecución y la escalabilidad del software EOSIO, con la verdadera descentralización que hace sostenible DPoS. Telos tendrá la mayor cantidad de monedas distribuidas equitativamente de entre todas las blockchains. Esta distribución de tokens mejora la gobernabilidad. De manera que la red es mucho más segura y sostenible.",
   	"developers_heading": "Orientación a programadores",
   	"developers_content": "Telos existe para proporcionar una red estable, y de coste reducido, en la que se puedan desplegar DAPPS de la máxima calidad. Los desarrolladores de DAPPS pueden esperar tener RAM asequible, y la posibilidad de desplegar contratos open source o propietarios, sin coste por transacción.",
   	"dpos_heading": "Velocidad DPoS",
@@ -382,8 +382,13 @@
   },
   "dapps_page": {
     "intro": {
-      "heading": "Desarrollo Dapp",
+      "heading": "Construye tu Dapp en Telos",
       "subheading": "La mejor red hace el mejor desarrollo de Dapps.",
+      "intro_content": [
+        "Telos usa el poder de EOSIO para implementar dapps rápidos y de alta capacidad sin tarifas de transacción para los usuarios. Telos es 100% compatible con EOS, pero los dapps cuestan 30 veces menos para implementarse en Telos, y Telos proporciona cuentas de usuario gratuitas. Esto hace que Telos sea una rampa de entrada ideal para los desarrolladores que buscan construir aplicaciones de blockchain de tercera generación a un bajo precio. <a href=\"https://medium.com/goodblock-io/telos-the-on-ramp-to-third-generation-blockchain-c2c8c770099d\" target=\"_blank\" rel=\"noopener noreferrer\">Lea más sobre el bajo costo de la implementación de Telos dapp</a>.",
+        "Estamos construyendo un repositorio de contratos de muestra para nuevos tokens, migración de tokens existentes de Ethereum o EOS, funciones de votación y otros conceptos de desarrollo de Telos. También tenemos una fuerte comunidad de desarrolladores para ofrecer ayuda en nuestros grupos de Telegram, especialmente en el <a href=\"https://t.me/dappstelos\" target=\"_blank\" rel=\"noopener noreferrer\">desarrollo de Telos Dapp</a>.",
+        "También hay una excelente serie de tutoriales sobre la implementación en Telos llamada <a href=\"https://link.medium.com/0UUfxmsMAV\" target=\"_blank\" rel=\"noopener noreferrer\">SensorDApp</a>."
+      ],
       "tutorials_button": "TUTORIALES",
       "tutorials_description": "Aprende como construir tu Dapp en la red Telos.",
       "smart_contracts_button": "PLANTILLAS DE CONTRATO INTELIGENTE",

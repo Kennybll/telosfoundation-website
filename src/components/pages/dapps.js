@@ -60,7 +60,11 @@ const DAppsIntro = ({intro}) => {
 						>
 							<div className='text-center'>
 								<h1>{intro.heading}</h1>
-								<h2>{intro.subheading}</h2>
+								<div className='intro_content'>
+									{intro.intro_content.map((par, i) => {
+										return <p key={i} dangerouslySetInnerHTML={{__html: par}} />;
+									})}
+								</div>
 							</div>
 						</ScrollAnimation>
 					</Col>
