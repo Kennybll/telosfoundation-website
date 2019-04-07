@@ -22,7 +22,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<a
-									href=''
+									href='https://t.me/HelloTelos'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
@@ -31,7 +31,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<a
-									href=''
+									href='https://github.com/Telos-Foundation'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
@@ -40,7 +40,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<a
-									href=''
+									href='https://www.youtube.com/c/TheTelosNetwork'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
@@ -49,7 +49,7 @@ const Footer = () => {
 							</li>
 							<li>
 								<a
-									href=''
+									href='https://www.facebook.com/TelosFoundation.io/'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
