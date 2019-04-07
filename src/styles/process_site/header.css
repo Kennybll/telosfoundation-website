@@ -107,6 +107,12 @@
 
 #process_header .dropdown-menu li:hover {
 	background-color: rgba(0, 0, 0, 0.1);
+	display: inline-block;
+	width: 100%;
+}
+
+#process_header .dropdown-menu .navbar-header {
+	width: 100%;
 }
 
 @media screen and (min-width: 768px){

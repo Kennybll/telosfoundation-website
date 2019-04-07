@@ -47,47 +47,76 @@ class Header extends Component {
 								ROADMAP
 							</NavItem>
 							<NavDropdown title="MONITOR" id="basic-nav-dropdown">
+								<Navbar.Header>Mainnet</Navbar.Header>
 								<MenuItem 
 									onClick={(e) => {
 										e.preventDefault();
-										window.open('https://mon-test.telosfoundation.io');
+										window.open('https://monitor.telosfoundation.io/');
 									}}
-									href="https://mon-test.telosfoundation.io"
+									href="https://monitor.telosfoundation.io/"
 								>
-									Testnet
+									Telos Foundation
 								</MenuItem>
 								<MenuItem
 									onClick={(e) => {
 										e.preventDefault();
-										window.open('https://monitor.telosfoundation.io');
+										window.open('https://telostracker.io/monitor');
 									}} 
-									href="https://monitor.telosfoundation.io"
+									href="https://telostracker.io/monitor"
 								>
-									Mainnet
+									TELOSTRACKER
 								</MenuItem>
-						    </NavDropdown>
-						    <NavDropdown
-						    	title="MORE"
-						    	id="more-nav-dropdown"
-						    	onSelect={(key, e) => {
-						    		e.preventDefault();
-						    		this.props.history.push(`/${key}`);
-						    	}}
-						    >
-						    	<MenuItem
-						    		eventKey='launch'
-						    	>
-						    		Launch Checklist
-						    	</MenuItem>
-						    	<MenuItem
-						    		eventKey='candidates'
-						    	>
-						    		BP Candidates
-						    	</MenuItem>
-						    	<MenuItem
-						    		eventKey='governance'
-						    	>
-									Governance
+								<MenuItem
+									onClick={(e) => {
+										e.preventDefault();
+										window.open('https://telos.eosx.io/');
+									}} 
+									href="https://telos.eosx.io/"
+								>
+									EOSX
+								</MenuItem>
+								<Navbar.Header>Testnet</Navbar.Header>
+								<MenuItem
+									onClick={(e) => {
+										e.preventDefault();
+										window.open('https://mon-test.telosfoundation.io/');
+									}} 
+									href="https://mon-test.telosfoundation.io/"
+								>
+									Telos Foundation
+								</MenuItem>
+								<MenuItem
+									onClick={(e) => {
+										e.preventDefault();
+										window.open('https://telos-test.eosx.io/');
+									}} 
+									href="https://telos-test.eosx.io/"
+								>
+									EOSX
+								</MenuItem>
+							</NavDropdown>
+							<NavDropdown
+								title="MORE"
+								id="more-nav-dropdown"
+								onSelect={(key, e) => {
+									e.preventDefault();
+									this.props.history.push(`/${key}`);
+								}}
+							>
+								<MenuItem
+									eventKey='launch'
+								>
+									Launch Checklist
+								</MenuItem>
+								<MenuItem
+									eventKey='candidates'
+								>
+									BP Candidates
+								</MenuItem>
+								<MenuItem
+									eventKey='governance'
+								>
+								Governance
 								</MenuItem>
 								<MenuItem
 						    		eventKey='arbitrators'
@@ -114,7 +143,7 @@ class Header extends Component {
 						    	>
 									FAQ
 								</MenuItem>
-						    </NavDropdown>
+							</NavDropdown>
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>
